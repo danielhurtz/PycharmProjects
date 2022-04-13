@@ -1,0 +1,7 @@
+print('='*30)
+print('Daniels Contability')
+print('')
+salario = float(input('Qual é o seu salario atual? R$ '))
+print('')
+novo = salario + (salario * 15 / 100)
+print(f'Com um aumento de 15%, o seu salario vai ficar em R${novo:.2f}')

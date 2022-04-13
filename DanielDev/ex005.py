@@ -1,0 +1,8 @@
+print('Olá! Seja bem vindo')
+a = input('Para começar, digite o seu nome: ')
+print(f'Muito bem {a}!')
+n = int(input('Agora digite um valor: '))
+print(f'Analisando valor {n}... ')
+print('O valor antecessor é {}'.format(n-1))
+print('O valor sucessor é {}'.format(n+1))
+print(f'Parabéns {a}! Até a próxima!')

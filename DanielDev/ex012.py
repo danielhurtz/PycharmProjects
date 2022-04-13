@@ -1,0 +1,5 @@
+print('Market5')
+print('')
+preço = float(input('Insira o valor do produto R$ '))
+novo = preço - (preço * 5 / 100)
+print(f'O produto que custava R${preço} vai passar a custar com 5% de desconto R${novo}')
