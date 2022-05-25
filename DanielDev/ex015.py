@@ -1,0 +1,5 @@
+print('Hurtz Car Rent')
+dia = float(input('Por quantos dias foi alugado? '))
+km = float(input('Quantos Km voce rodou? '))
+total = (dia * 60) + (km * 0.15)
+print(f'O valor total a pagar e R${total:.2f} pelos {dia:.0f} dias alugados.')
