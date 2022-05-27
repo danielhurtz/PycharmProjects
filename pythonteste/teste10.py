@@ -3,6 +3,7 @@ print(len(frase.strip())) # remove os espacos antes e depois da frase
 print(len(frase)) # mostra o total de letras / tamanho da frase
 print(frase.upper().count('O'))
 
+# mostrar frase com mais de uma linha utilizar """ """
 print("""Welcome! Are you completely new to programming?
 about why and how get started with Python. Fortunately
 an experienced programmer in any programming language
